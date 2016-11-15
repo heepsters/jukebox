@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+	border: 0;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 100%;
+	background-color: white;
+	color: black;
+		width: 100%;
+	height: 500px;
+	background-image: url("orangenight.jpeg");
+	background-size: cover;
+}
+
+.heeps {
+	width: 100%;
+	height: 50px;
+	opacity: .9;
+	box-shadow: 0px 0px 20px #333;
+	position: fixed;
+}
+
+.heeps p {
+	position: absolute;
+	top: 14px;
+	margin-top: 0;
+	float: right;
+	right: 20px;
+	color: white;
+	letter-spacing: 1px;
+
+}
+
+.heeps img {
+	width: auto;
+	height: 50px;
+	float: left;
+}
+.heeps input {
+	width: 300px;
+	height: 27px;
+	border-radius: 20px;
+	padding: 0 15px;
+	margin-top: 10px;
+	margin-left: 24%;
+	border: 1px solid grey;
+	outline: none;
+	font-size: 12px;
+}
+
+.heeps input:hover {
+	border: 2px solid white;
+}
+
+#note {
+	position: absolute;
+	color: black;
+	top: 670px;
+	left: 20px;
+	font-size: 12px;
+}
+
+#img-wrapper {
+	width: 300px;
+	height: 539px;
+	text-align: center;
+	top: 110px;
+	left: 5.8%;
+	border: none;
+	background-color: black;
+	opacity: .9;
+	position: absolute;
+	box-shadow: 1px 1px 100px black;
+}
+
+#logo {
+	width: 185px;
+	height: 90px;
+	margin-top: 40px;
+}
+img#artwork{
+	width: 250px;
+	height: 250px;
+	border: none;
+	background-image: cover;
+	background-color: #cceeff;
+	border-radius: 100%;
+	box-shadow: 0 0 20px #333;
+	margin-top: 175px;
+	left: 8%;
+	position: absolute;
+}
+
+
+#infobox {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	height: 500px;
+	position: absolute;
+	top: 110px;
+	left: 450px;
+	background-color: black;
+	color: white;
+	opacity: .9;
+	padding: 20px;
+	box-shadow: 1px 1px 100px black;
+}
+
+#infobox h1{
+	margin: 0;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-style: lighter;
+	padding: 25px 50px;
+	flex: 1;
+}
+
+#infobox h2{
+	margin: 0;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-style: lighter;
+	padding: 25px 50px;
+	flex: 1;
+}
+p#link {
+	margin: 0;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-style: lighter;
+	padding: 25px 50px;
+	flex: 1;
+}
+span.info {
+	margin: 0;
+	width: 600px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-style: lighter;
+	padding: 25px 50px;
+	flex: 1;
+}
+
+p#description {
+	margin: 0 0 50px 0;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-style: lighter;
+	padding: 25px 50px;
+	flex: 1;
+}
+
+#player {
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	top: 567px;
+	left: 7.85%;
+	position: absolute;
+	color: white;
+	padding: 25px;
+	opacity: .8;
+
+}
+
+.Back {
+	display: inline;
+	margin: 0 10px;
+
+}
+
+.Back img{
+	width: 25px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 4px;
+}
+
+.Play {
+	display: inline;
+	margin: 0 10px;
+}
+
+.Play img{
+	width: 25px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	display: inline;
+}
+.Play img:hover {
+	scale: 1.1;
+
+}
+.Stop {
+	display: inline;
+	margin: 0 10px;
+}
+.Stop img{
+	width: 18px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	display: inline;
+	padding-bottom: 3px;
+}
+.Next {
+	display: inline;
+	margin: 0 10px;
+}
+.Next img{
+	width: 25px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	display: inline;
+	padding-bottom: 4px;
+}
+
+
+
+
+

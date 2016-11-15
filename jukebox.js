@@ -129,5 +129,3 @@ file.addEventListener('change', function(){
 	juke.loadSong(this.value.replace('C:\\fakepath\\', ''));
 });
 
-
-
