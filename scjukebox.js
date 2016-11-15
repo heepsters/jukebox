@@ -65,9 +65,8 @@ function Jukebox() {
     var link = this.currentSong.permalink_url;
     $('.info').text(info);
     $('#artwork').attr('src', this.currentSong.artwork_url);
-    $('#link').text(function(){
-        return link;
-    });
+    $('#link').html('<a target="_blank" href="' + link + '">' + this.currentSong.title + '</a>');
+
   }
 }
 $(document).ready(function(){
